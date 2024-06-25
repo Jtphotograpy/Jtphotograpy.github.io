@@ -1,0 +1,56 @@
+html
+Copiar código
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografía Deportiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fotografía Deportiva</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Bienvenidos a mi página de fotografía deportiva.</p>
+    </section>
+    <section id="galeria">
+        <h2>Galería</h2>
+        <!-- Añade aquí las fotos de la galería -->
+        <div id="instagram-feed">
+            <!-- Código del widget de Instagram -->
+            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+            <iframe src="https://lightwidget.com/widgets/your-widget-id.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+        </div>
+    </section>
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Soy un fotógrafo apasionado por el deporte. Aquí comparto mis mejores fotos.</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="https://formspree.io/your-email" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Fotografía Deportiva</p>
+    </footer>
+</body>
+</html>
